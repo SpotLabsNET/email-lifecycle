@@ -155,6 +155,36 @@ class AnalyserTest extends \PHPUnit_Framework_TestCase {
       array("This email address is not activated to accept SMS messages."));
   }
 
+  function testJeyo() {
+    $this->doTest("jeyo",
+      array("supportnn@jeyo.com"),
+      array("sorry, no mailbox here by that name."));
+  }
+
+  function testChello() {
+    $this->doTest("chello",
+      array("user@t-email.hu"),
+      array("Recipient address rejected: Recipient address does not exist"));
+  }
+
+  function testCampbx() {
+    $this->doTest("campbx",
+      array("support@campbx.com"),
+      array("Your message can't be delivered because delivery to this address is restricted."));
+  }
+
+  function testCranenz() {
+    $this->doTest("cranenz",
+      array("user@cranenz.co.nz"),
+      array("Delivery to the following recipients failed."));
+  }
+
+  function testMassey() {
+    $this->doTest("massey",
+      array("jevon@jevon.org", "user@massey.ac.nz"),
+      array("conversation with mail.jevon.org[203.194.209.183] timed out while sending message body"));
+  }
+
   function testCleanMessage() {
     $this->assertEquals("hi",
       BounceEmailAnalyser::cleanMessage("hi"));

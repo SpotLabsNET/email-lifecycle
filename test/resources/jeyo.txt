@@ -1,0 +1,10 @@
+Hi. This is the smtp delivery program.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+
+
+<supportnn@jeyo.com>, sorry, no mailbox here by that name.
+
+
+--- Below this line is a copy of the message.

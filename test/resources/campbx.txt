@@ -1,0 +1,60 @@
+Delivery has failed to these recipients or groups:
+
+support@campbx.com<mailto:support@campbx.com>
+Your message can't be delivered because delivery to this address is restricted.
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: BY2PR02MB123.namprd02.prod.outlook.com
+
+support@campbx.com
+Remote Server returned '550 5.7.1 RESOLVER.RST.AuthRequired; authentication required'
+
+Original message headers:
+
+Received: from DM2PR02CA001.namprd02.prod.outlook.com (10.141.52.139) by
+ BY2PR02MB123.namprd02.prod.outlook.com (10.242.43.148) with Microsoft SMTP
+ Server (TLS) id 15.0.820.5; Wed, 27 Nov 2013 11:52:20 +0000
+Received: from BL2FFO11FD039.protection.gbl (2a01:111:f400:7c09::181) by
+ DM2PR02CA001.outlook.office365.com (2a01:111:e400:2414::11) with Microsoft
+ SMTP Server (TLS) id 15.0.825.14 via Frontend Transport; Wed, 27 Nov 2013
+ 11:52:19 +0000
+Received: from jevon.org (50.116.3.249) by
+ BL2FFO11FD039.mail.protection.outlook.com (10.173.161.135) with Microsoft
+ SMTP Server id 15.0.825.6 via Frontend Transport; Wed, 27 Nov 2013 11:52:19
+ +0000
+Return-Path: jevon@jevon.org
+To: <support@campbx.com>
+Date: Wed, 27 Nov 2013 03:51:54 -0800
+Subject: Re: [#DWA-348-20353]: GetBalance API without username & password
+Envelope-To: support@campbx.com
+References: <1375185409.51f7aa01bf114@campbx.kayako.com>
+Message-ID: <CAMBQuvfO6DQdU_UtYnLjFVnevRxv00gH0i6yXM68SJg-xzGrWg@mail.gmailcom>
+From: Jevon Wright <jevon@cryptfolio.com>
+Received: from mail-pd0-f170.google.com (mail-pd0-f170.google.com
+ [209.85.192.170])      by jevon.org; Wed, 27 Nov 2013 03:51:55 -0800
+Received: by mail-pd0-f170.google.com with SMTP id g10so9853741pdj.1
+        for <support@campbx.com>; Wed, 27 Nov 2013 03:51:54 -0800 (PST)
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20130820;
+        h=3Dmime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=3Dgv3EcmUxeC9efDoQcGl7rSLAdt7zMR/RIgM0WE/2R+k=3D;
+        b=3DQ3O03zqqIR2Ix2214fMThgSkEgtPKdtjA/iZ6UnShbuTR9Ebhe+o+MvTMcj+9aoJSl
+         TN+nUVnaOmeKDZdb42lUVYqx5+gk3hhk7Bv6KV1gd//Qr/5E3bXc8yNeR9pScmoIaJlp
+         YR6rctAukwa3g7hSuF4cMMglViVbrRSvgPLViz4JXHJAkjeCeWMsYBzQyhKVkrfRMKeV
+         OzRi1IY+aq2i/H7WF7Qiu+V9TiLGMHBIoXV13bmzY7OTtXfAs6NHovpDNUYyRCK1vUZm
+         JzYITvf0UHddIxZck4/FfTUcE4VDlomKQUZlt1UPoV+4kqz4BtDYFguZrH/WqeiFGQwZ
+         uVPA=3D=3D
+MIME-Version: 1.0
+X-Received: by 10.68.105.35 with SMTP id gj3mr1078294pbb.202.1385553114378;
+ Wed, 27 Nov 2013 03:51:54 -0800 (PST)
+Received: by 10.70.26.162 with HTTP; Wed, 27 Nov 2013 03:51:54 -0800 (PST)
+Content-Type: multipart/alternative; boundary=3D"047d7b5db7b235817f04ec2739f0"
+X-Forefront-Antispam-Report: CIP:50.116.3.249;CTRY:US;IPV:NLI;EFV:NLI;

@@ -1,0 +1,13 @@
+This is an automatically generated Delivery Status Notification.
+
+Delivery to the following recipients failed.
+
+       user@cranenz.co.nz
+
+
+
+
+
++AF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8AXwBfAF8
+Any views expressed in this message are those of the individual sender, 
+except where the sender specifically states them to be the views of Crane Group

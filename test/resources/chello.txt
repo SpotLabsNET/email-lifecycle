@@ -1,0 +1,12 @@
+This Message was undeliverable due to the following reason: 
+
+Each of the following recipients was rejected by a remote mail server.
+The reasons given by the server are included to help you determine why
+each recipient was rejected.
+
+    Recipient: <user@t-email.hu>
+    Reason:    5.1.1 <user@t-email.hu>: Recipient address rejected: Recipient address does not exist
+ 
+
+ Please reply to <Postmaster@chello.at> 
+ if you feel this message to be in error.
