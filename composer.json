@@ -10,7 +10,6 @@
     "tedivm/fetch": "dev-master"
   },
   "autoload": {
-    "files": ["functions.php"],
     "psr-4": {
       "Emails\\Lifecycle\\": "src"
     }
