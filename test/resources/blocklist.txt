@@ -1,0 +1,4 @@
+A message you sent could not be delivered to some or all of its recipients.
+The following addresses were undeliverable:
+
+foo@address.nl: 5.7.1 Service unavailable; Client host [123.45.67.89] blocked using Blocklist 1; To request removal from this list please forward this message to delist@messaging.microsoft.com

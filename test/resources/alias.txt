@@ -1,0 +1,4 @@
+A message you sent could not be delivered to some or all of its recipients.
+The following addresses were undeliverable:
+
+t123456@gamil.com: 5.1.1 <t123456@gamil.com>: Recipient address rejected: User unknown in virtual alias table

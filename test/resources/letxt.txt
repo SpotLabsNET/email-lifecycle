@@ -1,0 +1,11 @@
+Hi. This is the qmail-send program at black.kas.net.au.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<123@sms.letxt.com.au>:
+This email address is not activated to accept SMS messages. 
+Please log in at www.letxt.com.au and activate email to sms feature in Preferences page. You also need to add 
+the email addresses you are sending email from in this Preferences page. If you continue having 
+problems please contact us at support@letxt.com.au 
+
+--- Below this line is a copy of the message.

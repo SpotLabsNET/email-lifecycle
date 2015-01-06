@@ -1,0 +1,4 @@
+A message you sent could not be delivered to some or all of its recipients.
+The following addresses were undeliverable:
+
+foo@startmail.com: 5.1.1 <foo@startmail.com>: Recipient address rejected: undeliverable address: Unknown user

@@ -1,0 +1,4 @@
+A message you sent could not be delivered to some or all of its recipients.
+The following addresses were undeliverable:
+
+123@icloud.com: 5.1.1 unknown or illegal alias: 123@icloud.com

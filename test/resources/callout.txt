@@ -1,0 +1,4 @@
+A message you sent could not be delivered to some or all of its recipients.
+The following addresses were undeliverable:
+
+abc@ieh-mail.de: Callout verification failed:

@@ -1,0 +1,4 @@
+A message you sent could not be delivered to some or all of its recipients.
+The following addresses were undeliverable:
+
+max@toklan.com: 5.7.1 Mail (m-40152-02364) appears to be unsolicited - Totalscore(101) over MessageScoringUpperLimit - contact postmaster@toklan.com for resolution

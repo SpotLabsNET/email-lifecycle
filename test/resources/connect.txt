@@ -1,0 +1,5 @@
+A message you sent could not be delivered to some or all of its recipients
+due to prolonged unavailability of its destination(s).
+Giving up on the following addresses:
+
+sample@email.tst: Unable to connect to email.tst : 25

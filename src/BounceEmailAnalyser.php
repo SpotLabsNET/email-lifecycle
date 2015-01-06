@@ -44,10 +44,22 @@ class BounceEmailAnalyser {
       }
     }
 
+    if (preg_match_all("/\n<(.+?@.+?)>:\n(.+?)\n\n/ims", $this->text, $matches, PREG_SET_ORDER)) {
+      foreach ($matches as $match) {
+        $this->emails[] = $match[1];
+        $this->messages[] = self::cleanMessage($match[2]);
+      }
+    }
+
   }
 
   static function cleanMessage($message) {
-    $message = preg_replace("#\(.+?\).+$#im", "", $message);
+    $message = preg_replace("#.+Remote host said: ([^\n]+).*#ims", "\\1", $message);
+    $message = preg_replace("#\\(.+?@.+?\\).+$#im", "", $message);
+    $message = preg_replace("#\\(\\#[0-9\\.]+\\)$#im", "", $message);
+    $message = preg_replace("#^[0-9\\. \\#]+\\s+#im", "", $message);
+    $message = preg_replace("#<[^>]+>:?\\s*#im", "", $message);
+    $message = preg_replace("#([^\n]+)\n.+$#ims", "\\1", $message);   // first line only
     return trim($message);
   }
 

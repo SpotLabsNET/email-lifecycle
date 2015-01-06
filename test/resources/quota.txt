@@ -1,0 +1,4 @@
+A message you sent could not be delivered to some or all of its recipients.
+The following addresses were undeliverable:
+
+a@gmail.com: 5.2.2 The email account that you tried to reach is over quota. Please direct

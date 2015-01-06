@@ -1,0 +1,4 @@
+A message you sent could not be delivered to some or all of its recipients.
+The following addresses were undeliverable:
+
+username@gmial.com: 5.1.1 <username@gmial.com> Recipient not found.  <http://x.co/irbounce>
