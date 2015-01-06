@@ -6,7 +6,8 @@
     "openclerk/templates": "dev-master",
     "openclerk/emails": "dev-master",
     "openclerk/events": "dev-master",
-    "openclerk/db": "dev-master"
+    "openclerk/db": "dev-master",
+    "tedivm/fetch": "~0.5"
   },
   "autoload": {
     "files": ["functions.php"],
