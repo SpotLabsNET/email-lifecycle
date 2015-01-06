@@ -18,10 +18,8 @@ class SentEmailsMigration extends \Db\Migration {
       subject varchar(255) null,
       template_id varchar(255) null,
 
-      message_id varchar(255) null,
       is_failed tinyint not null default 0,
 
-      INDEX(message_id),
       INDEX(is_failed),
       INDEX(to_name),
       INDEX(to_email)

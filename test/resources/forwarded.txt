@@ -1,0 +1,34 @@
+---------- Forwarded message ----------
+From: Citadel <citadel@jevon.org>
+Date: Fri, Jan 2, 2015 at 5:32 AM
+Subject: Delivery Status Notification (Failure)
+To:
+
+
+A message you sent could not be delivered to some or all of its recipients
+due to prolonged unavailability of its destination(s).
+Giving up on the following addresses:
+
+support@example.com: Connection timed out
+
+---------- Forwarded message ----------
+From: Openclerk <sync@openclerk.org>
+To: "support@example.com" <support@example.com>
+Cc:
+Date: Fri, 26 Dec 2014 22:37:04 -0800
+Subject: Test e-mail support@example.com at Sat, 27 Dec 2014 19:37:04 +1300
+  Openclerk <http://localhost.openclerk.org/clerk/>
+
+*Hello support@example.com <support@example.com>,*
+
+This is a test e-mail sent at Sat, 27 Dec 2014 19:37:04 +1300 to
+support@example.com.
+ Openclerk
+http://localhost.openclerk.org/clerk/
+
+
+------------------------------
+   <http://www.avast.com/>
+
+This email has been checked for viruses by Avast antivirus software.
+www.avast.com

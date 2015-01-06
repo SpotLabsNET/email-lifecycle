@@ -1,0 +1,4 @@
+A message you sent could not be delivered to some or all of its recipients.
+The following addresses were undeliverable:
+
+thisemailaddressshouldnotexist12312312312312312312311@yahoo.com: delivery error: dd This user doesn't have a yahoo.com account (thisemailaddressshouldnotexist12312312312312312312311@yahoo.com) [0] - mta1445.mail.gq1.yahoo.com</li>
