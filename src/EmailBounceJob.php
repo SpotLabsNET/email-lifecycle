@@ -30,9 +30,10 @@ class EmailBounceJob extends \Jobs\JobInstance {
 
         $emails = $analyser->findEmails();
         $messages = $analyser->findErrorMessages();
-        $logger->info("Found " . count($emails) . " emails with " . count($messages) . " failure messages");
         foreach ($emails as $email) {
           foreach ($messages as $m) {
+            $logger->info(sprintf("'%s' failed with message '%s'", $email, $m));
+
             $q = $db->prepare("INSERT INTO bounced_emails SET
               uid=:uid,
               email=:email,
