@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f402f7337e4e0c84a7ef8650e71208e4",
+    "hash": "71abcfe3a292726ed281409b1b1af9d5",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -107,12 +107,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openclerk/db.git",
-                "reference": "2bf1c4e63353bf7fe6f4bdf82e7c581a447d5269"
+                "reference": "76c8f83a8856fd9760337145c0411a7e7266e197"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openclerk/db/zipball/2bf1c4e63353bf7fe6f4bdf82e7c581a447d5269",
-                "reference": "2bf1c4e63353bf7fe6f4bdf82e7c581a447d5269",
+                "url": "https://api.github.com/repos/openclerk/db/zipball/76c8f83a8856fd9760337145c0411a7e7266e197",
+                "reference": "76c8f83a8856fd9760337145c0411a7e7266e197",
                 "shasum": ""
             },
             "require": {
@@ -131,7 +131,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Simple PHP database management",
-            "time": "2015-01-06 00:29:21"
+            "time": "2015-01-09 04:02:44"
         },
         {
             "name": "openclerk/emails",
@@ -412,23 +412,27 @@
         },
         {
             "name": "tedivm/fetch",
-            "version": "v0.5.3",
+            "version": "v0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tedious/Fetch.git",
-                "reference": "0bf95d78b2af407fb3c8e435104b73f33fa428c6"
+                "reference": "154a84fdfa0d045c2871dd9f8708362fb9ea4acf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tedious/Fetch/zipball/0bf95d78b2af407fb3c8e435104b73f33fa428c6",
-                "reference": "0bf95d78b2af407fb3c8e435104b73f33fa428c6",
+                "url": "https://api.github.com/repos/tedious/Fetch/zipball/154a84fdfa0d045c2871dd9f8708362fb9ea4acf",
+                "reference": "154a84fdfa0d045c2871dd9f8708362fb9ea4acf",
                 "shasum": ""
             },
             "require": {
+                "ext-imap": "*",
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "tedivm/dovecottesting": "~1.2"
+                "fabpot/php-cs-fixer": "0.5.*",
+                "phpunit/phpunit": "4.2.*",
+                "satooshi/php-coveralls": "dev-master",
+                "tedivm/dovecottesting": "1.2.3"
             },
             "type": "library",
             "autoload": {
@@ -447,13 +451,13 @@
                 }
             ],
             "description": "A PHP IMAP Library",
-            "homepage": "http://github.com/tedivm/Fetch",
+            "homepage": "http://github.com/tedious/Fetch",
             "keywords": [
                 "email",
                 "imap",
                 "pop3"
             ],
-            "time": "2014-03-14 07:08:36"
+            "time": "2015-01-08 03:22:20"
         }
     ],
     "packages-dev": [
@@ -1297,17 +1301,17 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.6.1",
+            "version": "v2.6.3",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "3346fc090a3eb6b53d408db2903b241af51dcb20"
+                "reference": "82462a90848a52c2533aa6b598b107d68076b018"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/3346fc090a3eb6b53d408db2903b241af51dcb20",
-                "reference": "3346fc090a3eb6b53d408db2903b241af51dcb20",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/82462a90848a52c2533aa6b598b107d68076b018",
+                "reference": "82462a90848a52c2533aa6b598b107d68076b018",
                 "shasum": ""
             },
             "require": {
@@ -1340,7 +1344,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2014-12-02 20:19:20"
+            "time": "2015-01-03 15:33:07"
         }
     ],
     "aliases": [],

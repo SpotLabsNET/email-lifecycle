@@ -13,7 +13,7 @@ class EmailBounceJob extends \Jobs\JobInstance {
     $server = new \Fetch\Server(Config::get("bounce_server"), Config::get("bounce_port", 993));
     $server->setAuthentication(Config::get("bounce_username"), Config::get("bounce_password"));
 
-    $messages = $server->getOrdered(SORTARRIVAL, 1 /* reverse */, Config::get("bounce_message_limit", 30 /* limit */));
+    $messages = $server->getOrderedMessages(SORTARRIVAL, 1 /* reverse */, Config::get("bounce_message_limit", 30 /* limit */));
     $logger->info("Found " . number_format(count($messages)) . " messages");
 
     foreach ($messages as $message) {
